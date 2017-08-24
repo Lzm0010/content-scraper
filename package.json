@@ -1,0 +1,17 @@
+{
+  "name": "content-scraper",
+  "version": "0.0.1",
+  "description": "price content scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lee McCormick",
+  "license": "MIT",
+  "dependencies": {
+    "json2csv": "^3.11.1",
+    "moment": "^2.18.1",
+    "scrape-it": "^3.3.2"
+  }
+}
