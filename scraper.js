@@ -122,6 +122,10 @@ let scrapeProduct = function(product){
 }
 
 
+/****************
+ HELPER FUNCTIONS
+*****************/
+
 //transforms image src into url for appropriate product
 function transformUrl(src){
   let id = src.match(/\d+/g);
